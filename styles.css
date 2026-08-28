@@ -1,0 +1,56 @@
+body{
+  background-color:rgb(26, 25, 31);
+	font-family:'Monaco', monospace;
+	color: #ff8b2c;
+	font-style:normal;
+	overflow: hidden;
+}
+header{
+	font-style:normal;
+}
+section{
+  background-color:rgb(26, 25, 31);
+  font-size:15px;
+	font-weight:normal;
+	padding:10px;
+  float:left;
+  border:2px solid rgb(55, 55, 66);
+  margin-bottom:10px;
+	box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+
+}
+#top{
+  font-size:20px;
+	 width: calc(100vw - 40px);
+}
+#normalhead{
+  font-size:25px;
+	font-weight:bold;
+  padding:5px;
+}
+#normalsec1{
+  font-size:15px;
+	font-weight:normal;
+  padding:10px;
+	width:47.25vw;
+	float:left;
+	transition: transform 0.2s;
+	transition-timing-function: ease;
+}
+#normalsec2{
+  font-size:15px;
+	font-weight:normal;
+  padding:10px;
+	width:47.25vw;
+	float:right;
+	transition: transform 0.2s;
+	transition-timing-function: ease;
+}
+#normalsec1:hover{
+	transform: scale(1.01);
+
+}
+#normalsec2:hover{
+	transform: scale(1.01);
+
+}
